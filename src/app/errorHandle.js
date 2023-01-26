@@ -9,6 +9,7 @@ module.exports = (err, ctx) => {
       break
     default:
       status = 500
+      break
   }
   ctx.status = status
   ctx.body = err
